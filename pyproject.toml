@@ -1,0 +1,11 @@
+[project]
+name = "proto2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.11.14",
+    "pytelegrambotapi>=4.26.0",
+    "pyyaml==6.0.2",
+]
