@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -19,16 +18,18 @@ DRAWING_TEMPLATES_PATH = Path(__file__).parent
 OUTPUT_FILE = DRAWING_TEMPLATES_PATH / "output.dxf"
 
 
-@dataclass
 class ObjConfig:
-    layer_name: str = None
-    obj_type: str = None
-    points: dict[str, list[float]] = None
-    points_map: dict[int | str, str] = None
-    scale_directions: list[str] = None
-    width: float = None
-    height: float = None
-    move_directions: list[str] = None
+    def __init__(self, config: dict):
+        self.layer_name: str = config.get("layer_name")
+        self.obj_type: str = config.get("obj_type")
+        self.points: dict[str, list[float]] = config.get("points")
+        self.points_map: dict[int | str, str] = config.get("points_map")
+        self.scale_directions: list[str] = config.get("scale_directions")
+        self.width: float = config.get("width", 0.0)
+        self.height: float = config.get("height", 0.0)
+        self.move_directions: list[str] = config.get("move_directions")
+        self.refs: dict[str, str] = config.get("refs")
+        self._validate_correcting_config()
 
     def _validate_correcting_config(self):
         config_attrs = (
@@ -43,17 +44,6 @@ class ObjConfig:
         validation_result = any(map(lambda x: (x is None) | (x is False), config_attrs))
         if validation_result:
             raise Exception("Object config is incorrect.")  # TODO Use config incorrection error exception
-
-    def setup_config(self, config: dict):
-        self.layer_name = config.get("layer_name")
-        self.obj_type = config.get("obj_type")
-        self.points = config.get("points")
-        self.points_map = config.get("points_map")
-        self.scale_directions = config.get("scale_directions")
-        self.width = config.get("width", 0.0)
-        self.height = config.get("height", 0.0)
-        self.move_directions = config.get("move_directions")
-        self._validate_correcting_config()
 
 
 class DXFScaler:
@@ -117,8 +107,7 @@ class DXFScaler:
         obj = self.config.get(obj_name)
 
         if obj:
-            obj_config = ObjConfig()
-            obj_config.setup_config(obj)
+            obj_config = ObjConfig(obj)
             return obj_config
 
         raise Exception(f"Object with name: {obj_name} - is not found in config.")  # TODO Use ConfigNotFoundError
