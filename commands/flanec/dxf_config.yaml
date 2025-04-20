@@ -1,0 +1,38 @@
+support_plate:
+  layer_name: "Опорная пластина"
+  obj_type: LWPOLYLINE
+  points:
+    tl: [454.9821, 321.1757]
+    tr: [494.9821, 321.1757]
+    bl: [454.9821, 160.7313]
+    br: [494.9821, 160.7313]
+  points_map:
+    0: tr
+    1: tl
+    2: bl
+    3: br
+  scale_directions: ["r", "b"]
+  width: 40.0000
+  height: 160.0000
+
+support_plate_height_dimesion:
+  layer_name: "Опорная пластина"
+  obj_type: DIMENSION
+  points:
+    t: [494.9821, 321.1757, 0.0]
+    b: [494.9821, 160.7313, 0.0]
+    lb: [635.1769, 160.7313, 0.0]
+  points_map:
+    defpoint: lb
+    defpoint2: t
+    defpoint3: b
+  scale_directions: ["b"]
+  move_directions: ["r"]
+  height: 160.0000
+  # refs:
+  #   support_plate:
+  #     layer_name: layer_name
+  #     points.t: points.tr
+  #     points.b: points.br
+  #     height: height
+
