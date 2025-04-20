@@ -1,5 +1,5 @@
 from core import Command
-import  math
+import math
 
 
 class flanec(Command):

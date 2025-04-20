@@ -6,6 +6,7 @@ from ezdxf.math import Vec3
 from yaml import safe_load
 
 if TYPE_CHECKING:
+    from os import PathLike
     from ezdxf.entities.dxfgfx import DXFGraphic
 
 DIRECTION_MAPPING = {
@@ -15,9 +16,6 @@ DIRECTION_MAPPING = {
     "b": (1, -1),
 }
 VECTOR_INDEXES_TEMPLATE = (0, 1, 2)
-
-DRAWING_TEMPLATES_PATH = Path(__file__).parent
-OUTPUT_FILE = DRAWING_TEMPLATES_PATH / "output.dxf"
 
 
 class ObjConfig:
@@ -49,12 +47,14 @@ class ObjConfig:
 
 
 class DXFScaler:
-    def __init__(self, template_name: str):
-        self.doc = ez.readfile(DRAWING_TEMPLATES_PATH / template_name)
+    def __init__(self, work_dir: PathLike, template_name: str):
+        self.doc = ez.readfile(work_dir / template_name)
         self.doc.header["$LWDISPLAY"] = 1
         self.doc.header["$DIMASSOC"] = 2
         self.msp = self.doc.modelspace()
         self.config = self._load_config()
+
+        self.work_dir = work_dir
 
         self.object_type_methods_mapping = {
             "scale": {
@@ -116,7 +116,7 @@ class DXFScaler:
         return entity
 
     def _load_config(self) -> dict:
-        with open(DRAWING_TEMPLATES_PATH / "dxf_config.yaml", "r", encoding="utf-8") as file:
+        with open(self.work_dir / "dxf_config.yaml", "r", encoding="utf-8") as file:
             return safe_load(file)
 
     def _scale_polyline(
@@ -257,4 +257,4 @@ class DXFScaler:
         return width, height
 
     def save(self):
-        self.doc.saveas(OUTPUT_FILE)
+        self.doc.saveas(self.work_dir / "output.dxf")
