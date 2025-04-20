@@ -1,13 +1,11 @@
 from pathlib import Path
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING
 
 import ezdxf as ez
 from ezdxf.math import Vec3
 from yaml import safe_load
 
 if TYPE_CHECKING:
-    from os import PathLike
-
     from ezdxf.entities.dxfgfx import DXFGraphic
 
 DIRECTION_MAPPING = {
@@ -118,7 +116,7 @@ class DXFScaler:
         return entity
 
     def _load_config(self) -> dict:
-        with open(DRAWING_TEMPLATES_PATH / "config.yaml", "r", encoding="utf-8") as file:
+        with open(DRAWING_TEMPLATES_PATH / "dxf_config.yaml", "r", encoding="utf-8") as file:
             return safe_load(file)
 
     def _scale_polyline(
