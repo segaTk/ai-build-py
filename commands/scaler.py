@@ -1,4 +1,3 @@
-from pathlib import Path
 from typing import TYPE_CHECKING
 
 import ezdxf as ez
@@ -6,7 +5,7 @@ from ezdxf.math import Vec3
 from yaml import safe_load
 
 if TYPE_CHECKING:
-    from os import PathLike
+    from pathlib import Path
     from ezdxf.entities.dxfgfx import DXFGraphic
 
 DIRECTION_MAPPING = {
@@ -47,14 +46,13 @@ class ObjConfig:
 
 
 class DXFScaler:
-    def __init__(self, work_dir: PathLike, template_name: str):
+    def __init__(self, work_dir: "Path", template_name: str):
+        self.work_dir = work_dir
         self.doc = ez.readfile(work_dir / template_name)
         self.doc.header["$LWDISPLAY"] = 1
         self.doc.header["$DIMASSOC"] = 2
         self.msp = self.doc.modelspace()
         self.config = self._load_config()
-
-        self.work_dir = work_dir
 
         self.object_type_methods_mapping = {
             "scale": {
