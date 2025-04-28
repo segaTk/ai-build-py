@@ -12,11 +12,12 @@ class flanec(Command):
         self.scaler = DXFScaler(Path(__file__).parent, "test_node_e2.dxf")
 
         # Добавляем переменные по нормам
-        self.min_edge_distance_along = 2.0  # вдоль усилия, в диаметрах болта
-        self.min_edge_distance_across = 1.5  # поперек усилия, в диаметрах болта
 
-        self.min_spacing_along = 3.0  # межосевое расстояние вдоль усилия
-        self.min_spacing_across = 3.0  # межосевое расстояние поперек усилия (можно 4.0 при необходимости)
+        self.min_edge_distance_along = float(2.0)  # вдоль усилия, в диаметрах болта
+        self.min_edge_distance_across = float(1.5)  # поперек усилия, в диаметрах болта
+
+        self.min_spacing_along = float(3.0)  # межосевое расстояние вдоль усилия
+        self.min_spacing_across = float(3.0)  # межосевое расстояние поперек усилия (можно 4.0 при необходимости)
 
         super().__init__(*args, quest_map=quest_map, **kwargs)
 
@@ -30,6 +31,10 @@ class flanec(Command):
             if standard >= value:
                 return standard
         return standard_values[-1]
+
+    @staticmethod
+    def round_up_to_nearest_10(value):
+        return math.ceil(value / 10) * 10
 
     def invoke(self, Q: float) -> str:
         height_sup_table = Q / 0.8 + 10
@@ -61,11 +66,11 @@ class flanec(Command):
 
         # Пример расчёта расстояний с учетом диаметра болта
         d = result_Abn  # диаметр болта
-        min_edge_along = self.min_edge_distance_along * d
-        min_edge_across = self.min_edge_distance_across * d
-        min_spacing_along = self.min_spacing_along * d
-        min_spacing_across = self.min_spacing_across * d
 
+        min_edge_along = self.round_up_to_nearest_10(self.min_edge_distance_along * d + 3)
+        min_edge_across = self.round_up_to_nearest_10(self.min_edge_distance_across * d + 3)
+        min_spacing_along = self.round_up_to_nearest_10(self.min_spacing_along * d + 3)
+        min_spacing_across = self.round_up_to_nearest_10(self.min_spacing_across * d + 3)
 
         t_height_sup_table = 50 if St > 20 else 40
         t_height_sup_table = self.round_to_nearest_higher(t_height_sup_table)
@@ -74,14 +79,15 @@ class flanec(Command):
         self.scaler.scale_object("support_plate_height_dimension", height=height_sup_table)
         self.scaler.move_object("support_plate_height_dimension",
                                 offset=self.scaler.calculate_offset(
-                                    "support_plate", width="?", height=height_sup_table))
+                                    "support_plate", width=0, height=height_sup_table))
 
         # TODO связь с DXF:
-        self.scaler.scale_object("xxx", height=min_edge_along)
-        self.scaler.scale_object("xxx", height=min_edge_across)
-        self.scaler.scale_object("xxx", height=min_spacing_along)
-        self.scaler.scale_object("xxx", height=min_spacing_across)
+        #        self.scaler.scale_object("xxx", height=min_edge_along)
+        #       self.scaler.scale_object("xxx", height=min_edge_across)
+        #       self.scaler.scale_object("xxx", height=min_spacing_along)
+        #      self.scaler.scale_object("xxx", height=min_spacing_across)
 
         self.scaler.save()
 
-        return self.result_temp.format(height_sup_table, t_height_sup_table, result_Abn, usage_percent, St)
+        return self.result_temp.format(height_sup_table, t_height_sup_table, result_Abn, usage_percent, St,
+                                       min_edge_along, min_edge_across, min_spacing_along, min_spacing_across)
