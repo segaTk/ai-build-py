@@ -15,7 +15,7 @@ support_plate:
   width: 40.0000
   height: 160.0000
 
-support_plate_height_dimension:
+support_plate_height_dimesion:
   layer_name: "Опорная пластина"
   obj_type: DIMENSION
   points:
@@ -36,3 +36,49 @@ support_plate_height_dimension:
   #     points.b: points.br
   #     height: height
 
+support_plate_annotation:
+  layer_name: "Опорная пластина"
+  obj_type: INSERT
+  obj_name: "A$Ced6cee15"
+  points:
+    br: [484.5474, 177.2792, 0.0]
+  points_map:
+    insert: br
+  move_directions: ["b", "r"]
+
+support_plate_design:
+  layer_name: "Опорная пластина"
+  obj_type: INSERT
+  obj_name: "_Сварной шов угловой сбоку - _Сварной шов угловой сбоку-2993003-Сечение 0 - фрагмент 3"
+  points:
+    b: [-22934.0179, 23398.3234, 0.0]
+  points_map:
+    insert: b
+  move_directions: ["b"]
+
+support_plate_width_annotation:
+  layer_name: "Опорная пластина -t40"
+  obj_type: INSERT
+  obj_name: "A$Ce5720a33"
+  points:
+    b: [464.1213, 168.8848, 0.0]
+  points_map:
+    insert: b
+  move_directions: ["b"]
+  sub_objects:
+    width_annotation_text:
+      obj_type: MTEXT
+      text: -t40
+      text_template: -t{}
+
+support_plate_weld:
+  layer_name: "Опорная пластина weld"
+  obj_type: INSERT
+  obj_name: "091_Сварка заводская _ЭлУзла_ - 2мм М10-404973-Сечение 0 - фрагмент 3"
+  is_duplicate_pattern: True
+  points:
+    b: [-22782.6526, -23288.8243, 0.0]
+  points_map:
+    insert: b
+  align: center
+  duplicate_directions: ["b"]
