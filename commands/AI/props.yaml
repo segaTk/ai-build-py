@@ -1,0 +1,9 @@
+name: ai
+alias: AI
+result_temp: ""  # ← больше не используется, т.к. invoke возвращает полный ответ
+doc: |
+  Команда AI — отправляет запрос в локальную модель Ollama (llama3).
+
+  Args:
+    prompt [str] - ваш вопрос или инструкция
+class_name: AI

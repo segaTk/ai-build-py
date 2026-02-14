@@ -1,10 +1,22 @@
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, Callable, Union
 
+from ezdxf.addons.drawing import RenderContext, Frontend
+from ezdxf.addons.drawing.matplotlib import MatplotlibBackend
+from PIL import Image
+import io
+
+from ezdxf.addons.drawing import RenderContext, Frontend
+from ezdxf.addons.drawing.matplotlib import MatplotlibBackend
+import matplotlib.pyplot as plt
+
 import ezdxf as ez
 from ezdxf import bbox
 from ezdxf.math import Vec3
 from yaml import safe_load
+import numpy as np
+from ezdxf import new
+import traceback
 
 if TYPE_CHECKING:
     from os import PathLike
@@ -172,6 +184,7 @@ class DXFScaler:
                 },
             },
         }
+
 
     def __recreate_dimstyle(self, entity: "DXFGraphic", only_attrs: bool = False) -> str:
         old_dimstyle_name = entity.dxf.dimstyle
@@ -461,3 +474,68 @@ class DXFScaler:
 
     def save(self):
         self.doc.saveas(self.work_dir / "output.dxf")
+
+    def export_to_pdf(self, output_path: "PathLike", dpi: int = 300):
+        """
+        Экспортирует текущий DXF-документ в PDF.
+        
+        Args:
+            output_path: путь к выходному PDF-файлу
+            dpi: разрешение для растрированных элементов (например, изображений)
+        """
+        try:
+            from ezdxf import new, explode
+            import matplotlib.pyplot as plt
+            from ezdxf.addons.drawing import RenderContext, Frontend
+            from ezdxf.addons.drawing.matplotlib import MatplotlibBackend
+            #doc_copy = self.doc.copy()
+            #msp_copy = doc_copy.modelspace()
+            new_doc = new(dxfversion=self.doc.dxfversion)
+            new_msp = new_doc.modelspace()
+
+            # Копируем сущности (простой способ — через query или итерацию)
+            for entity in self.doc.modelspace():
+                try:
+                    new_msp.add_foreign_entity(entity)
+                except Exception as e:
+                    print(f"⚠️ Пропущена сущность {entity.dxftype}: {e}")
+
+            # Развернуть все блоки (INSERT → примитивы)
+            explode(new_msp)
+            # Создаём контекст рендеринга
+            context = RenderContext(self.doc)
+            backend = MatplotlibBackend(self.msp, dpi=dpi)
+            frontend = Frontend(context, backend)
+
+            frontend.log_warnings = True  # ← включаем предупреждения
+                
+            # Рендерим все сущности
+            frontend.draw_layout(self.msp, finalize=True)
+                
+            # Сохраняем в PDF
+            fig = backend.get_figure()
+            fig.savefig(output_path, dpi=dpi, bbox_inches="tight")
+            plt.close(fig)  # освобождаем память
+            print(f"✅ PDF успешно сохранён: {output_path}")
+        except Exception as e:
+            print(f"❌ Ошибка при экспорте PDF: {e}")
+            import traceback
+            traceback.print_exc()
+        
+    def export_to_pdf_via_png(self, pdf_path: str, dpi: int = 300):
+
+        context = RenderContext(self.doc)
+        backend = MatplotlibBackend(self.msp, dpi=dpi)
+        frontend = Frontend(context, backend)
+        frontend.draw_layout(self.msp, finalize=True)
+
+        # Сохраняем в буфер как PNG
+        buf = io.BytesIO()
+        fig = backend.get_figure()
+        fig.savefig(buf, format="png", dpi=dpi, bbox_inches="tight")
+        plt.close(fig)
+
+        # Конвертируем PNG в PDF
+        buf.seek(0)
+        img = Image.open(buf)
+        img.convert("RGB").save(pdf_path, "PDF", resolution=dpi)

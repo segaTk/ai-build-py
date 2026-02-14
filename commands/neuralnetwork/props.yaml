@@ -1,0 +1,9 @@
+name: visualize
+alias: Визуализация dxf
+result_temp: x {}
+doc: |
+  x.
+
+  Args:
+    x
+class_name: Perceptron

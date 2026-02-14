@@ -1,0 +1,21 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-dotenv  # если используете .env
+requests
+python-dotenv
+langchain
+# Поддержка Ollama
+langchain-ollama
+# Загрузка документов (PDF, DOCX, TXT и др.)
+langchain-community
+# Разделение текста
+langchain-text-splitters
+# Работа с PostgreSQL + pgvector
+langchain-postgres
+# Драйвер PostgreSQL
+psycopg2-binary
+# LangGraph (для create_react_agent)
+langgraph
+
+#pip install -r requirements.txt
