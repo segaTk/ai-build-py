@@ -1,0 +1,608 @@
+2025-12-27 17:12:51,528 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:12:51,867 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:12:58,065 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:12:59,933 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:15:55,471 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:19:17,521 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:19:44,410 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:19:44,562 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:21:31,521 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:21:31,523 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:24:17,083 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:24:17,160 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:24:18,920 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:24:19,272 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:26:32,881 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:26:32,963 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:26:39,540 [INFO] main: Response status: 400 for /requests
+2025-12-27 17:27:05,739 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:27:05,770 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:27:11,774 [INFO] main: Response status: 400 for /requests
+2025-12-27 17:27:38,722 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:27:38,730 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:27:43,370 [INFO] main: Incoming OPTIONS /requests from 127.0.0.1
+2025-12-27 17:27:43,372 [INFO] main: Response status: 400 for /requests
+2025-12-27 17:32:37,074 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:32:37,106 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:33:28,449 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:33:28,474 [INFO] main: Database tables created (if not exist)
+2025-12-27 17:33:31,596 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-27 17:33:31,608 [INFO] main: Returning 8 records for 127.0.0.1
+2025-12-27 17:34:35,505 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-27 17:34:35,514 [INFO] main: Returning 8 records for 127.0.0.1
+2025-12-27 17:38:55,013 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-27 17:38:55,021 [INFO] main: Returning 8 records for 127.0.0.1
+2025-12-27 17:39:24,401 [INFO] main: Received prompt from 127.0.0.1: 'неужели...'
+2025-12-27 17:39:40,354 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-27 17:39:40,369 [INFO] main: Returning 8 records for 127.0.0.1
+2025-12-27 17:39:42,639 [INFO] main: Received answer from Ollama (len=218 chars)
+2025-12-27 17:39:42,683 [INFO] main: Saved request/response for 127.0.0.1
+2025-12-27 17:39:42,687 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-27 17:39:42,698 [INFO] main: Returning 9 records for 127.0.0.1
+2025-12-27 17:40:36,773 [INFO] main: Database tables created (if not exist)
+2025-12-28 18:53:44,615 [INFO] main: Database tables created (if not exist)
+2025-12-28 18:54:46,199 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 18:54:46,215 [INFO] main: Returning 9 records for 127.0.0.1
+2025-12-28 18:55:21,430 [INFO] main: Received prompt from 127.0.0.1: 'Как выжить на сто тысяч рублей в месяц в Дубае?...'
+2025-12-28 18:57:21,452 [ERROR] main: Ollama request timed out
+2025-12-28 18:58:00,326 [INFO] main: Received prompt from 127.0.0.1: 'Как выжить на сто тысяч рублей в месяц?...'
+2025-12-28 19:00:00,344 [ERROR] main: Ollama request timed out
+2025-12-28 19:03:26,476 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:03:26,495 [INFO] main: Returning 9 records for 127.0.0.1
+2025-12-28 19:39:13,756 [INFO] main: Received prompt from 127.0.0.1: '"POST /requests HTTP/1.1" 504 Gateway Timeout...'
+2025-12-28 19:40:08,124 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:40:08,140 [INFO] main: Returning 9 records for 127.0.0.1
+2025-12-28 19:40:08,256 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:40:08,272 [INFO] main: Returning 9 records for 127.0.0.1
+2025-12-28 19:40:09,356 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:40:09,369 [INFO] main: Returning 9 records for 127.0.0.1
+2025-12-28 19:40:26,444 [INFO] main: Received answer from Ollama (len=4316 chars)
+2025-12-28 19:40:26,501 [INFO] main: Saved request/response for 127.0.0.1
+2025-12-28 19:40:26,506 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:40:26,514 [INFO] main: Returning 10 records for 127.0.0.1
+2025-12-28 19:40:30,119 [INFO] main: Received prompt from 127.0.0.1: 'Как выжить на сто тысяч рублей в месяц?...'
+2025-12-28 19:41:07,505 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:41:07,527 [INFO] main: Returning 10 records for 127.0.0.1
+2025-12-28 19:41:07,819 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:41:07,833 [INFO] main: Returning 10 records for 127.0.0.1
+2025-12-28 19:41:52,889 [INFO] main: Received answer from Ollama (len=2507 chars)
+2025-12-28 19:41:52,899 [INFO] main: Saved request/response for 127.0.0.1
+2025-12-28 19:41:52,905 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:41:52,914 [INFO] main: Returning 11 records for 127.0.0.1
+2025-12-28 19:44:27,153 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:44:27,164 [INFO] main: Returning 11 records for 127.0.0.1
+2025-12-28 19:45:13,530 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:45:13,544 [INFO] main: Returning 11 records for 127.0.0.1
+2025-12-28 19:46:11,344 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:46:11,353 [INFO] main: Returning 11 records for 127.0.0.1
+2025-12-28 19:46:54,722 [INFO] main: Fetching history for IP: 127.0.0.1
+2025-12-28 19:46:54,738 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:16:24,174 [INFO] main: Database tables created (if not exist)
+2026-01-02 23:17:05,550 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:17:05,568 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:17:08,403 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:17:08,422 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:12,495 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:12,506 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:16,901 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:16,910 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:17,809 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:17,819 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:18,057 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:18,068 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:18,136 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:18,146 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:18,218 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:18,227 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:18,461 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:18,472 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:18,476 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:18,491 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:19:18,800 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:19:18,809 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:23:07,358 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:23:07,370 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:23:12,266 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:23:12,276 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:23:23,646 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:23:23,654 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:23:58,015 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:23:58,028 [INFO] main: Returning 11 records for 127.0.0.1
+2026-01-02 23:24:08,632 [INFO] main: Received prompt from 127.0.0.1: 'q...'
+2026-01-02 23:24:37,119 [INFO] main: Received answer from Ollama (len=786 chars)
+2026-01-02 23:24:37,141 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-02 23:24:37,147 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:24:37,155 [INFO] main: Returning 12 records for 127.0.0.1
+2026-01-02 23:28:59,730 [INFO] main: Database tables created (if not exist)
+2026-01-02 23:29:18,157 [INFO] main: Database tables created (if not exist)
+2026-01-02 23:39:59,499 [INFO] main: Database tables created (if not exist)
+2026-01-02 23:40:11,736 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:40:11,775 [INFO] main: Returning 12 records for 127.0.0.1
+2026-01-02 23:40:11,906 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:40:11,918 [INFO] main: Returning 12 records for 127.0.0.1
+2026-01-02 23:45:26,085 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-02 23:45:26,096 [INFO] main: Returning 12 records for 127.0.0.1
+2026-01-02 23:53:16,928 [INFO] main: Database tables created (if not exist)
+2026-01-02 23:54:54,852 [INFO] main: Database tables created (if not exist)
+2026-01-02 23:55:41,095 [INFO] main: Database tables created (if not exist)
+2026-01-02 23:58:23,612 [INFO] main: Database tables created (if not exist)
+2026-01-08 22:58:13,014 [INFO] main: Database tables created (if not exist)
+2026-01-08 22:58:30,590 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 22:58:30,656 [INFO] main: Returning 12 records for 127.0.0.1
+2026-01-08 22:59:56,264 [INFO] main: Received prompt from 127.0.0.1: 'Что такое любовь? Может ли любить нейросеть того, кто задает...'
+2026-01-08 23:00:55,359 [INFO] main: Received answer from Ollama (len=1255 chars)
+2026-01-08 23:00:55,481 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-08 23:00:55,800 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 23:00:55,816 [INFO] main: Returning 13 records for 127.0.0.1
+2026-01-08 23:03:20,221 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 23:03:20,232 [INFO] main: Returning 13 records for 127.0.0.1
+2026-01-08 23:04:06,194 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 23:04:06,207 [INFO] main: Returning 13 records for 127.0.0.1
+2026-01-08 23:07:07,013 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:09:15,269 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:13:18,259 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:14:01,809 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:15:31,141 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:16:15,203 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:17:14,106 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:17:15,672 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:18:55,510 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:19:38,692 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:23:07,629 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:23:13,235 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:23:28,491 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:25:04,656 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:25:12,339 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 23:25:12,389 [INFO] main: Returning 13 records for 127.0.0.1
+2026-01-08 23:25:22,103 [INFO] main: Received prompt from 127.0.0.1: 'Hi...'
+2026-01-08 23:25:29,755 [INFO] main: Received answer from Ollama (len=32 chars)
+2026-01-08 23:25:29,771 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-08 23:25:29,781 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 23:25:29,792 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-08 23:26:35,888 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:26:47,163 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:30:41,471 [WARNING] main: Validation error from 127.0.0.1: 2 validation errors:
+  {'type': 'missing', 'loc': ('body', 'code'), 'msg': 'Field required', 'input': None}
+  {'type': 'missing', 'loc': ('body', 'state'), 'msg': 'Field required', 'input': None}
+
+  File "D:\segaTk\super_po\web\router.py", line 21, in handle_code
+    GET /auth/google/callback
+2026-01-08 23:31:05,408 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 23:31:05,459 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-08 23:31:05,769 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-08 23:31:05,781 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-08 23:31:29,593 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:31:32,069 [INFO] main: Database tables created (if not exist)
+2026-01-08 23:31:38,923 [WARNING] main: Validation error from 127.0.0.1: 2 validation errors:
+  {'type': 'missing', 'loc': ('body', 'code'), 'msg': 'Field required', 'input': None}
+  {'type': 'missing', 'loc': ('body', 'state'), 'msg': 'Field required', 'input': None}
+
+  File "D:\segaTk\super_po\web\router.py", line 21, in handle_code
+    GET /auth/google/callback
+2026-01-08 23:32:53,390 [INFO] main: Database tables created (if not exist)
+2026-01-09 19:21:37,908 [INFO] main: Database tables created (if not exist)
+2026-01-09 19:21:57,938 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:21:57,966 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:24:04,726 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:24:04,734 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:26:40,231 [WARNING] main: Validation error from 127.0.0.1: 2 validation errors:
+  {'type': 'missing', 'loc': ('body', 'code'), 'msg': 'Field required', 'input': None}
+  {'type': 'missing', 'loc': ('body', 'state'), 'msg': 'Field required', 'input': None}
+
+  File "D:\segaTk\super_po\web\router.py", line 21, in handle_code
+    GET /auth/google/callback
+2026-01-09 19:29:21,791 [INFO] main: Database tables created (if not exist)
+2026-01-09 19:29:45,972 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:29:45,984 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:36:03,897 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:36:03,904 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:38:07,261 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:38:07,270 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:39:19,083 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:39:19,091 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:47:26,672 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:47:26,681 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:47:49,862 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:47:49,870 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:48:45,370 [INFO] main: Database tables created (if not exist)
+2026-01-09 19:49:31,679 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:49:31,691 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 19:51:10,038 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 19:51:10,046 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:04:41,525 [INFO] main: Database tables created (if not exist)
+2026-01-09 20:04:44,126 [INFO] main: Database tables created (if not exist)
+2026-01-09 20:04:53,417 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:04:53,428 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:07:28,161 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:07:28,169 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:11:48,779 [INFO] main: Database tables created (if not exist)
+2026-01-09 20:12:42,480 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:12:42,504 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:12:57,555 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:12:57,563 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:13:14,747 [INFO] main: Received prompt from 127.0.0.1: 'проверка запроса...'
+2026-01-09 20:13:16,787 [ERROR] main: Failed to connect to Ollama
+2026-01-09 20:13:45,042 [INFO] main: Received prompt from 127.0.0.1: 'проверка запроса...'
+2026-01-09 20:14:13,374 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:14:13,393 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:14:13,544 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:14:13,564 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:14:13,717 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:14:13,748 [INFO] main: Returning 14 records for 127.0.0.1
+2026-01-09 20:14:41,956 [INFO] main: Received answer from Ollama (len=1396 chars)
+2026-01-09 20:14:42,259 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-09 20:14:42,269 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:14:42,283 [INFO] main: Returning 15 records for 127.0.0.1
+2026-01-09 20:16:07,348 [INFO] main: Database tables created (if not exist)
+2026-01-09 20:17:01,685 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 20:17:01,701 [INFO] main: Returning 15 records for 127.0.0.1
+2026-01-09 20:20:04,859 [WARNING] main: Validation error from 127.0.0.1: 2 validation errors:
+  {'type': 'missing', 'loc': ('query', 'code'), 'msg': 'Field required', 'input': None}
+  {'type': 'missing', 'loc': ('query', 'state'), 'msg': 'Field required', 'input': None}
+
+  File "D:\segaTk\super_po\web\router.py", line 17, in handle_code
+    GET /auth/google/callback
+2026-01-09 22:48:28,342 [INFO] main: Database tables created (if not exist)
+2026-01-09 22:49:07,245 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 22:49:07,259 [INFO] main: Returning 15 records for 127.0.0.1
+2026-01-09 22:49:55,934 [INFO] main: Database tables created (if not exist)
+2026-01-09 22:50:11,760 [INFO] main: Database tables created (if not exist)
+2026-01-09 22:50:29,543 [INFO] main: Database tables created (if not exist)
+2026-01-09 22:50:38,045 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-09 22:50:38,058 [INFO] main: Returning 15 records for 127.0.0.1
+2026-01-10 19:50:23,768 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-10 19:50:23,779 [INFO] main: Returning 15 records for 127.0.0.1
+2026-01-10 19:51:00,242 [INFO] main: Received prompt from 127.0.0.1: 'Хеллоу...'
+2026-01-10 19:51:13,985 [INFO] main: Received answer from Ollama (len=190 chars)
+2026-01-10 19:51:14,489 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-10 19:51:14,498 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-10 19:51:14,509 [INFO] main: Returning 16 records for 127.0.0.1
+2026-01-10 19:51:29,197 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-10 19:51:29,204 [INFO] main: Returning 16 records for 127.0.0.1
+2026-01-10 19:53:51,212 [INFO] main: Database tables created (if not exist)
+2026-01-10 19:53:57,561 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-10 19:53:57,596 [INFO] main: Returning 16 records for 127.0.0.1
+2026-01-24 22:24:52,645 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:24:57,186 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 22:24:57,209 [INFO] main: Returning 16 records for 127.0.0.1
+2026-01-24 22:37:49,532 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:38:25,466 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:41:52,534 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:44:50,433 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:47:02,869 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:47:33,214 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:54:46,515 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:55:16,563 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:55:57,443 [INFO] main: Database tables created (if not exist)
+2026-01-24 22:57:51,283 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:00:52,555 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:01:03,091 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:01:38,124 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:01:46,592 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:02:26,867 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:02:36,421 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:06:05,496 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:06:40,100 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:14:58,264 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:15:17,130 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:21:58,272 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:26:19,458 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:27:44,146 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:28:15,756 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:28:35,269 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:28:43,866 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:31:00,785 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:31:05,542 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:31:22,010 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:31:22,034 [INFO] main: Returning 16 records for 127.0.0.1
+2026-01-24 23:32:12,888 [INFO] main: Received prompt from 127.0.0.1: 'Ура!...'
+2026-01-24 23:32:20,735 [INFO] main: Received answer from Ollama (len=22 chars)
+2026-01-24 23:32:20,804 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-24 23:32:20,815 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:32:20,827 [INFO] main: Returning 17 records for 127.0.0.1
+2026-01-24 23:40:47,498 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:41:06,101 [INFO] main: Received prompt from 127.0.0.1: 'Ура!...'
+2026-01-24 23:41:09,618 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:41:09,662 [INFO] main: Returning 17 records for 127.0.0.1
+2026-01-24 23:41:10,619 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:41:10,650 [INFO] main: Returning 17 records for 127.0.0.1
+2026-01-24 23:41:13,876 [INFO] main: Received answer from Ollama (len=66 chars)
+2026-01-24 23:41:13,896 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-24 23:41:14,082 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:41:14,090 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-24 23:41:14,872 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:41:14,882 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-24 23:41:26,261 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:41:26,275 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-24 23:41:55,063 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:41:55,080 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-24 23:43:37,923 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:44:34,124 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:46:10,597 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:46:18,026 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:46:18,060 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-24 23:46:22,429 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:46:22,437 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-24 23:53:52,594 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:54:07,296 [INFO] main: Database tables created (if not exist)
+2026-01-24 23:54:19,690 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-24 23:54:19,709 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-25 00:05:06,772 [INFO] main: Database tables created (if not exist)
+2026-01-25 00:05:15,351 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:05:15,370 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-25 00:05:37,660 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:05:37,674 [INFO] main: Returning 18 records for 127.0.0.1
+2026-01-25 00:07:15,413 [INFO] main: Received prompt from 127.0.0.1: '2183198 + 9832832 * 234832489 =...'
+2026-01-25 00:07:37,719 [INFO] main: Received answer from Ollama (len=472 chars)
+2026-01-25 00:07:37,740 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-25 00:07:37,750 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:07:37,770 [INFO] main: Returning 19 records for 127.0.0.1
+2026-01-25 00:08:08,430 [INFO] main: Received prompt from 127.0.0.1: 'А у меня такой ответ 2 309 068 414 662 046, может ты ошибся?...'
+2026-01-25 00:08:20,216 [INFO] main: Received answer from Ollama (len=703 chars)
+2026-01-25 00:08:20,224 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-25 00:08:20,231 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:08:20,239 [INFO] main: Returning 20 records for 127.0.0.1
+2026-01-25 00:10:41,287 [INFO] main: Received prompt from 127.0.0.1: 'Посчитай и пришли ответ ?:
+2183198 + 9832832 * 234832489 = ?...'
+2026-01-25 00:10:55,055 [INFO] main: Received answer from Ollama (len=256 chars)
+2026-01-25 00:10:55,064 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-25 00:10:55,074 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:10:55,086 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 00:13:15,679 [INFO] main: Database tables created (if not exist)
+2026-01-25 00:13:27,351 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:13:27,374 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 00:13:33,681 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:13:33,689 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 00:15:33,812 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:15:33,825 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 00:16:00,202 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:16:00,219 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 00:52:47,087 [INFO] main: Database tables created (if not exist)
+2026-01-25 00:53:01,327 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 00:53:01,347 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 00:59:50,209 [INFO] main: Database tables created (if not exist)
+2026-01-25 00:59:59,145 [INFO] main: Database tables created (if not exist)
+2026-01-25 01:00:02,446 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:00:02,477 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:10:42,673 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:10:42,705 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:14:23,143 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:14:23,159 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:14:55,330 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:14:55,343 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:15:24,716 [INFO] main: Database tables created (if not exist)
+2026-01-25 01:15:34,005 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:15:34,025 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:15:54,801 [INFO] main: Database tables created (if not exist)
+2026-01-25 01:15:55,122 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:15:55,145 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:16:19,915 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:16:19,927 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:21:10,451 [INFO] main: Database tables created (if not exist)
+2026-01-25 01:21:15,386 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:21:15,410 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:23:03,187 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:23:03,203 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:23:03,231 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:23:03,261 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:39:25,171 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:39:25,191 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:45:24,755 [INFO] main: Database tables created (if not exist)
+2026-01-25 01:45:39,973 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:45:39,991 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:45:43,062 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:45:43,077 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:45:44,089 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:45:44,104 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:48:45,345 [INFO] main: Database tables created (if not exist)
+2026-01-25 01:48:47,265 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:48:47,308 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:49:01,317 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:49:01,333 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:50:33,471 [INFO] main: Database tables created (if not exist)
+2026-01-25 01:50:42,252 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:50:42,280 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:50:50,530 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:50:50,542 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:35,804 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:35,814 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:37,327 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:37,338 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:37,509 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:37,520 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:39,728 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:39,738 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:40,197 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:40,205 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:40,565 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:40,573 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:41,581 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:41,589 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:41,829 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:41,837 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:51:45,021 [INFO] main: Received prompt from 127.0.0.1: '1...'
+2026-01-25 01:51:54,049 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:51:54,061 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:52:28,608 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:52:28,619 [INFO] main: Returning 21 records for 127.0.0.1
+2026-01-25 01:52:34,162 [INFO] main: Received answer from Ollama (len=1538 chars)
+2026-01-25 01:52:34,183 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-25 01:52:34,191 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:52:34,200 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 01:52:57,940 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 01:52:57,951 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 12:21:22,155 [INFO] main: Database tables created (if not exist)
+2026-01-25 12:21:30,282 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:21:30,299 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 12:21:48,768 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:21:48,777 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 12:21:52,530 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:21:52,539 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 12:22:59,312 [INFO] main: Received prompt from 127.0.0.1: 'qq...'
+2026-01-25 12:23:00,845 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:23:00,852 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 12:23:01,347 [ERROR] main: Failed to connect to Ollama
+2026-01-25 12:26:27,649 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:26:27,660 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 12:26:27,826 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:26:27,834 [INFO] main: Returning 22 records for 127.0.0.1
+2026-01-25 12:26:29,092 [INFO] main: Received prompt from 127.0.0.1: 'qq...'
+2026-01-25 12:26:40,417 [INFO] main: Received answer from Ollama (len=221 chars)
+2026-01-25 12:26:40,431 [INFO] main: Saved request/response for 127.0.0.1
+2026-01-25 12:26:40,437 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:26:40,444 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:29:34,425 [INFO] main: Database tables created (if not exist)
+2026-01-25 12:29:39,890 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:29:39,901 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:29:43,508 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:29:43,515 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:29:43,643 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:29:43,650 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:32:08,707 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:32:08,721 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:32:14,424 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:32:14,433 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:32:22,985 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:32:23,008 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:32:54,487 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:32:54,494 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:43:10,043 [INFO] main: Database tables created (if not exist)
+2026-01-25 12:43:15,767 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:43:15,780 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:43:20,321 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:43:20,328 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:43:40,683 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:43:40,691 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:52:10,290 [INFO] main: Database tables created (if not exist)
+2026-01-25 12:52:25,703 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:52:25,719 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:52:46,887 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:52:46,895 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:53:35,822 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:53:35,829 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 12:57:01,850 [INFO] main: Database tables created (if not exist)
+2026-01-25 12:57:07,400 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 12:57:07,412 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:00:11,010 [INFO] main: Database tables created (if not exist)
+2026-01-25 13:00:20,433 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:00:20,444 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:00:30,805 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:00:30,814 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:01:27,192 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:01:27,201 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:01:33,491 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:01:33,501 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:10:46,653 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:10:46,664 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:11:23,507 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:11:23,518 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:14:27,574 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:14:27,583 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:14:52,422 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:14:52,432 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:15:15,279 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:15:15,288 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:16:48,202 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:16:48,212 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:17:30,088 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:17:30,097 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:17:37,211 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:17:37,221 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:18:13,372 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:18:13,381 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:18:54,139 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:18:54,149 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:22:15,683 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:22:15,696 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:23:59,983 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:23:59,993 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:27:15,526 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:27:15,541 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:33:25,088 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:33:25,103 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:38:12,000 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:38:12,015 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:38:15,520 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:38:15,530 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:39:59,779 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:39:59,790 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:40:17,650 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:40:17,660 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:42:59,013 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:42:59,024 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:45:30,097 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:45:30,107 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:46:27,187 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:46:27,198 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:49:00,452 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:49:00,462 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:50:05,838 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:50:05,849 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:50:28,033 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:50:28,045 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:51:20,700 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:51:20,708 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:51:44,437 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:51:44,451 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:52:08,811 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:52:08,820 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:52:09,861 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:52:09,885 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:52:10,815 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:52:10,824 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:54:30,224 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:54:30,233 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:56:09,069 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:56:09,077 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 13:57:58,466 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 13:57:58,476 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:02:22,973 [INFO] main: Database tables created (if not exist)
+2026-01-25 14:02:31,170 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:02:31,183 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:02:48,350 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:02:48,359 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:03:07,400 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:03:07,409 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:04:30,640 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:04:30,650 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:06:03,484 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:06:03,493 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:35:32,275 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:35:32,285 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:36:48,640 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:36:48,651 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:38:57,429 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:38:57,441 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 14:39:44,198 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 14:39:44,208 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 16:55:56,640 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 16:55:56,650 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:14:45,826 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:14:45,863 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:15:58,083 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:15:58,092 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:15:59,206 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:15:59,216 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:15:59,984 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:15:59,998 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:16:07,398 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:16:07,407 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:16:08,142 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:16:08,155 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:17:40,727 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:17:40,737 [INFO] main: Returning 23 records for 127.0.0.1
+2026-01-25 22:18:04,640 [INFO] main: Fetching history for IP: 127.0.0.1
+2026-01-25 22:18:04,650 [INFO] main: Returning 23 records for 127.0.0.1
+2026-02-08 16:12:34,395 [INFO] main: Database tables created (if not exist)
+2026-02-08 16:14:44,924 [INFO] main: Database tables created (if not exist)
+2026-02-08 17:46:14,091 [INFO] main: Database tables created (if not exist)
+2026-02-09 18:40:48,666 [INFO] main: Database tables created (if not exist)
+2026-02-09 19:04:11,912 [INFO] main: Database tables created (if not exist)
+2026-02-09 19:15:15,352 [INFO] main: Database tables created (if not exist)
+2026-02-09 19:18:26,214 [INFO] main: Database tables created (if not exist)
+2026-02-09 19:18:26,225 [INFO] main: Database tables created (if not exist)
+2026-02-09 19:18:54,822 [INFO] main: Database tables created (if not exist)
+2026-02-14 21:41:26,499 [INFO] main: Database tables created (if not exist)
+2026-02-14 21:59:23,252 [INFO] main: Database tables created (if not exist)
+2026-02-14 22:30:22,533 [INFO] main: Database tables created (if not exist)
+2026-02-14 23:27:48,755 [INFO] main: Database tables created (if not exist)
