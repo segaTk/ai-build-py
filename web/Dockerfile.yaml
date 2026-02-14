@@ -1,0 +1,18 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Установка зависимостей
+COPY requirements.txt .
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Копируем код
+COPY . .
+
+# Проверка подключения к БД (опционально)
+# HEALTHCHECK не обязателен, но полезен
+
+EXPOSE 8080
+
+# Запуск не включён здесь — он задан в docker-compose.yml через `command`

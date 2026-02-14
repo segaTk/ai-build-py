@@ -605,4 +605,8 @@
 2026-02-14 21:41:26,499 [INFO] main: Database tables created (if not exist)
 2026-02-14 21:59:23,252 [INFO] main: Database tables created (if not exist)
 2026-02-14 22:30:22,533 [INFO] main: Database tables created (if not exist)
+<<<<<<< HEAD
 2026-02-14 23:27:48,755 [INFO] main: Database tables created (if not exist)
+=======
+>>>>>>> dev
+2026-02-14 23:31:35,715 [INFO] main: Database tables created (if not exist)

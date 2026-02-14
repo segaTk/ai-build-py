@@ -1,0 +1,3 @@
+ai-build.space {
+    reverse_proxy localhost:8000
+}

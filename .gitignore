@@ -11,3 +11,9 @@ wheels/
 
 .idea
 uv.lock
+.env
+
+my.crt
+
+my.key
+
